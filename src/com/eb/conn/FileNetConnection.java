@@ -13,7 +13,7 @@ import com.filenet.api.core.Factory;
 public class FileNetConnection 
 {
 	public static void getConnection()throws IOException {
-
+		ObjectStore ob="";
 		String url = "http://192.168.2.203:9080/wsi/FNCEWS40MTOM/";
 		String username = "deadmin";
 		String password = "deadmin";
